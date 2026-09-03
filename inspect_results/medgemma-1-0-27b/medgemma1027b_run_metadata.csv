@@ -1,0 +1,2 @@
+model_label,n_samples,started_at,completed_at,duration_seconds,duration_hms
+MedGemma 1.0-27B,126,2026-08-01T17:21:54+00:00,2026-08-01T20:01:30+00:00,9576.0,2:39:36

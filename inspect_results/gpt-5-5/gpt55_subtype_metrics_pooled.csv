@@ -1,0 +1,217 @@
+model_label,provider,model,condition,strategy,retrieval_type,category,recall_mean,recall_std,gold_count_mean,tp_count_mean,fn_count_mean,n_epochs
+GPT-5.5,openai,gpt-5.5,Asthma,chain_of_thought,non_rag,D,0.6666666666666666,0.28867513459481287,2.0,1.3333333333333333,0.6666666666666666,3
+GPT-5.5,openai,gpt-5.5,Asthma,chain_of_thought,non_rag,S,0.14666666666666667,0.023094010767585035,50.0,7.333333333333333,42.666666666666664,3
+GPT-5.5,openai,gpt-5.5,Asthma,chain_of_thought,non_rag,V,0.11850000000000001,0.012817175976009692,90.0,10.666666666666666,79.33333333333333,3
+GPT-5.5,openai,gpt-5.5,Asthma,chain_of_thought,rag,D,0.5,0.0,2.0,1.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Asthma,chain_of_thought,rag,S,0.8333333333333334,0.011547005383792509,50.0,41.666666666666664,8.333333333333334,3
+GPT-5.5,openai,gpt-5.5,Asthma,chain_of_thought,rag,V,0.5889,0.0,90.0,53.0,37.0,3
+GPT-5.5,openai,gpt-5.5,Asthma,few_shot,non_rag,D,0.5,0.0,2.0,1.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Asthma,few_shot,non_rag,S,0.21333333333333335,0.05033222956847166,50.0,10.666666666666666,39.333333333333336,3
+GPT-5.5,openai,gpt-5.5,Asthma,few_shot,non_rag,V,0.14813333333333334,0.0449178509429529,90.0,13.333333333333334,76.66666666666667,3
+GPT-5.5,openai,gpt-5.5,Asthma,few_shot,rag,D,0.5,0.0,2.0,1.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Asthma,few_shot,rag,S,0.82,0.01999999999999995,50.0,41.0,9.0,3
+GPT-5.5,openai,gpt-5.5,Asthma,few_shot,rag,V,0.5851999999999999,0.006408587988004845,90.0,52.666666666666664,37.333333333333336,3
+GPT-5.5,openai,gpt-5.5,Asthma,zero_shot,non_rag,D,1.0,0.0,2.0,2.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Asthma,zero_shot,non_rag,S,0.19333333333333333,0.04163331998932265,50.0,9.666666666666666,40.333333333333336,3
+GPT-5.5,openai,gpt-5.5,Asthma,zero_shot,non_rag,V,0.10740000000000001,0.016955530071336603,90.0,9.666666666666666,80.33333333333333,3
+GPT-5.5,openai,gpt-5.5,Asthma,zero_shot,rag,D,0.5,0.0,2.0,1.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Asthma,zero_shot,rag,S,0.8333333333333334,0.011547005383792533,50.0,41.666666666666664,8.333333333333334,3
+GPT-5.5,openai,gpt-5.5,Asthma,zero_shot,rag,V,0.5778,0.01922576396401452,90.0,52.0,38.0,3
+GPT-5.5,openai,gpt-5.5,Atrial Fibrillation,chain_of_thought,non_rag,D,0.6667,0.0,3.0,2.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Atrial Fibrillation,chain_of_thought,non_rag,S,0.2807,0.06079498334566761,19.0,5.333333333333333,13.666666666666666,3
+GPT-5.5,openai,gpt-5.5,Atrial Fibrillation,chain_of_thought,non_rag,V,0.6666666666666666,0.28867513459481287,2.0,1.3333333333333333,0.6666666666666666,3
+GPT-5.5,openai,gpt-5.5,Atrial Fibrillation,chain_of_thought,rag,D,0.6667,0.0,3.0,2.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Atrial Fibrillation,chain_of_thought,rag,S,0.7895,0.0,19.0,15.0,4.0,3
+GPT-5.5,openai,gpt-5.5,Atrial Fibrillation,chain_of_thought,rag,V,1.0,0.0,2.0,2.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Atrial Fibrillation,few_shot,non_rag,D,0.7778,0.19243084472090236,3.0,2.3333333333333335,0.6666666666666666,3
+GPT-5.5,openai,gpt-5.5,Atrial Fibrillation,few_shot,non_rag,S,0.21056666666666665,0.0911636075050419,19.0,4.0,15.0,3
+GPT-5.5,openai,gpt-5.5,Atrial Fibrillation,few_shot,non_rag,V,0.6666666666666666,0.28867513459481287,2.0,1.3333333333333333,0.6666666666666666,3
+GPT-5.5,openai,gpt-5.5,Atrial Fibrillation,few_shot,rag,D,0.6667,0.0,3.0,2.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Atrial Fibrillation,few_shot,rag,S,0.7895,0.0,19.0,15.0,4.0,3
+GPT-5.5,openai,gpt-5.5,Atrial Fibrillation,few_shot,rag,V,1.0,0.0,2.0,2.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Atrial Fibrillation,zero_shot,non_rag,D,0.6667,0.0,3.0,2.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Atrial Fibrillation,zero_shot,non_rag,S,0.21053333333333335,0.0911636075050419,19.0,4.0,15.0,3
+GPT-5.5,openai,gpt-5.5,Atrial Fibrillation,zero_shot,non_rag,V,0.8333333333333334,0.28867513459481287,2.0,1.6666666666666667,0.3333333333333333,3
+GPT-5.5,openai,gpt-5.5,Atrial Fibrillation,zero_shot,rag,D,0.6667,0.0,3.0,2.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Atrial Fibrillation,zero_shot,rag,S,0.7895,0.0,19.0,15.0,4.0,3
+GPT-5.5,openai,gpt-5.5,Atrial Fibrillation,zero_shot,rag,V,1.0,0.0,2.0,2.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,chain_of_thought,non_rag,A,0.032266666666666666,0.006450064599159712,155.0,5.0,150.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,chain_of_thought,non_rag,C,0.0,0.0,29.0,0.0,29.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,chain_of_thought,non_rag,D,0.2790666666666667,0.061532620075317214,43.0,12.0,31.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,chain_of_thought,non_rag,H,0.1515,0.05248113946933698,11.0,1.6666666666666667,9.333333333333334,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,chain_of_thought,non_rag,P,0.0,0.0,3.0,0.0,3.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,chain_of_thought,non_rag,S,0.20786666666666664,0.03456679524244811,93.0,19.333333333333332,73.66666666666667,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,chain_of_thought,non_rag,V,0.0,0.0,2.0,0.0,2.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,chain_of_thought,rag,A,0.0,0.0,155.0,0.0,155.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,chain_of_thought,rag,C,0.0,0.0,29.0,0.0,29.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,chain_of_thought,rag,D,0.3953,0.0,43.0,17.0,26.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,chain_of_thought,rag,H,0.060599999999999994,0.05248113946933698,11.0,0.6666666666666666,10.333333333333334,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,chain_of_thought,rag,P,0.0,0.0,3.0,0.0,3.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,chain_of_thought,rag,S,0.18636666666666665,0.01644272888949196,93.0,17.333333333333332,75.66666666666667,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,chain_of_thought,rag,V,0.0,0.0,2.0,0.0,2.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,few_shot,non_rag,A,0.027966666666666667,0.01625863872940577,155.0,4.333333333333333,150.66666666666666,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,few_shot,non_rag,C,0.011500000000000002,0.01991858428704209,29.0,0.3333333333333333,28.666666666666668,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,few_shot,non_rag,D,0.22483333333333333,0.013452261272118276,43.0,9.666666666666666,33.333333333333336,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,few_shot,non_rag,H,0.060599999999999994,0.05248113946933698,11.0,0.6666666666666666,10.333333333333334,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,few_shot,non_rag,P,0.0,0.0,3.0,0.0,3.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,few_shot,non_rag,S,0.13976666666666668,0.032250012919894044,93.0,13.0,80.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,few_shot,non_rag,V,0.0,0.0,2.0,0.0,2.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,few_shot,rag,A,0.0,0.0,155.0,0.0,155.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,few_shot,rag,C,0.0,0.0,29.0,0.0,29.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,few_shot,rag,D,0.41083333333333333,0.013452261272118305,43.0,17.666666666666668,25.333333333333332,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,few_shot,rag,H,0.060599999999999994,0.052481139469336975,11.0,0.6666666666666666,10.333333333333334,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,few_shot,rag,P,0.0,0.0,3.0,0.0,3.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,few_shot,rag,S,0.17559999999999998,0.00623538290724796,93.0,16.333333333333332,76.66666666666667,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,few_shot,rag,V,0.0,0.0,2.0,0.0,2.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,zero_shot,non_rag,A,0.0516,0.03413019191273322,155.0,8.0,147.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,zero_shot,non_rag,C,0.023000000000000003,0.03983716857408418,29.0,0.6666666666666666,28.333333333333332,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,zero_shot,non_rag,D,0.24806666666666669,0.013394526245199337,43.0,10.666666666666666,32.333333333333336,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,zero_shot,non_rag,H,0.1515,0.05248113946933698,11.0,1.6666666666666667,9.333333333333334,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,zero_shot,non_rag,P,0.0,0.0,3.0,0.0,3.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,zero_shot,non_rag,S,0.16126666666666667,0.038787412047381224,93.0,15.0,78.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,zero_shot,non_rag,V,0.0,0.0,2.0,0.0,2.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,zero_shot,rag,A,0.0,0.0,155.0,0.0,155.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,zero_shot,rag,C,0.0,0.0,29.0,0.0,29.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,zero_shot,rag,D,0.41083333333333333,0.013452261272118305,43.0,17.666666666666668,25.333333333333332,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,zero_shot,rag,H,0.0909,0.0,11.0,1.0,10.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,zero_shot,rag,P,0.0,0.0,3.0,0.0,3.0,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,zero_shot,rag,S,0.1541,0.016399085340347494,93.0,14.333333333333334,78.66666666666667,3
+GPT-5.5,openai,gpt-5.5,Coronary Heart Disease,zero_shot,rag,V,0.0,0.0,2.0,0.0,2.0,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,chain_of_thought,non_rag,C,0.0,0.0,3.0,0.0,3.0,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,chain_of_thought,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,chain_of_thought,non_rag,S,0.10316666666666667,0.015850026288095963,126.0,13.0,113.0,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,chain_of_thought,non_rag,V,0.0,0.0,1.0,0.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,chain_of_thought,rag,C,0.3333,0.0,3.0,1.0,2.0,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,chain_of_thought,rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,chain_of_thought,rag,S,0.5952,0.0,126.0,75.0,51.0,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,chain_of_thought,rag,V,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,few_shot,non_rag,C,0.0,0.0,3.0,0.0,3.0,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,few_shot,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,few_shot,non_rag,S,0.08463333333333334,0.018302003533311142,126.0,10.666666666666666,115.33333333333333,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,few_shot,non_rag,V,0.0,0.0,1.0,0.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,few_shot,rag,C,0.3333,0.0,3.0,1.0,2.0,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,few_shot,rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,few_shot,rag,S,0.6058333333333333,0.004561067126598062,126.0,76.33333333333333,49.666666666666664,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,few_shot,rag,V,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,zero_shot,non_rag,C,0.0,0.0,3.0,0.0,3.0,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,zero_shot,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,zero_shot,non_rag,S,0.09786666666666667,0.02292080568682814,126.0,12.333333333333334,113.66666666666667,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,zero_shot,non_rag,V,0.0,0.0,1.0,0.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,zero_shot,rag,C,0.3333,0.0,3.0,1.0,2.0,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,zero_shot,rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,zero_shot,rag,S,0.6005333333333333,0.0046188021535170185,126.0,75.66666666666667,50.333333333333336,3
+GPT-5.5,openai,gpt-5.5,Hypothyroidism,zero_shot,rag,V,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,chain_of_thought,non_rag,C,0.0,0.0,9.0,0.0,9.0,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,chain_of_thought,non_rag,D,0.4166666666666667,0.14433756729740643,4.0,1.6666666666666667,2.3333333333333335,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,chain_of_thought,non_rag,P,0.0,0.0,1.0,0.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,chain_of_thought,non_rag,S,0.11596666666666666,0.09049642718546039,23.0,2.6666666666666665,20.333333333333332,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,chain_of_thought,non_rag,V,0.09526666666666667,0.08250335346719752,7.0,0.6666666666666666,6.333333333333333,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,chain_of_thought,rag,C,0.8889,0.0,9.0,8.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,chain_of_thought,rag,D,1.0,0.0,4.0,4.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,chain_of_thought,rag,P,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,chain_of_thought,rag,S,0.9420000000000001,0.025114736709748727,23.0,21.666666666666668,1.3333333333333333,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,chain_of_thought,rag,V,1.0,0.0,7.0,7.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,few_shot,non_rag,C,0.0,0.0,9.0,0.0,9.0,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,few_shot,non_rag,D,0.4166666666666667,0.14433756729740643,4.0,1.6666666666666667,2.3333333333333335,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,few_shot,non_rag,P,0.0,0.0,1.0,0.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,few_shot,non_rag,S,0.1594,0.05022947341949745,23.0,3.6666666666666665,19.333333333333332,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,few_shot,non_rag,V,0.1429,0.0,7.0,1.0,6.0,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,few_shot,rag,C,0.8889,0.0,9.0,8.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,few_shot,rag,D,1.0,0.0,4.0,4.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,few_shot,rag,P,0.0,0.0,1.0,0.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,few_shot,rag,S,0.9420000000000001,0.02511473670974876,23.0,21.666666666666668,1.3333333333333333,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,few_shot,rag,V,1.0,0.0,7.0,7.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,zero_shot,non_rag,C,0.0,0.0,9.0,0.0,9.0,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,zero_shot,non_rag,D,0.4166666666666667,0.14433756729740643,4.0,1.6666666666666667,2.3333333333333335,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,zero_shot,non_rag,P,0.0,0.0,1.0,0.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,zero_shot,non_rag,S,0.17393333333333336,0.08695000479202594,23.0,4.0,19.0,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,zero_shot,non_rag,V,0.1429,0.0,7.0,1.0,6.0,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,zero_shot,rag,C,0.8889,0.0,9.0,8.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,zero_shot,rag,D,1.0,0.0,4.0,4.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,zero_shot,rag,P,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,zero_shot,rag,S,0.9565,0.0,23.0,22.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Multiple Sclerosis,zero_shot,rag,V,1.0,0.0,7.0,7.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Polymyalgia Rheumatica,chain_of_thought,non_rag,D,0.25,0.0,4.0,1.0,3.0,3
+GPT-5.5,openai,gpt-5.5,Polymyalgia Rheumatica,chain_of_thought,non_rag,H,0.0,0.0,2.0,0.0,2.0,3
+GPT-5.5,openai,gpt-5.5,Polymyalgia Rheumatica,chain_of_thought,non_rag,S,0.0,0.0,2.0,0.0,2.0,3
+GPT-5.5,openai,gpt-5.5,Polymyalgia Rheumatica,chain_of_thought,rag,D,1.0,0.0,4.0,4.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Polymyalgia Rheumatica,chain_of_thought,rag,H,1.0,0.0,2.0,2.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Polymyalgia Rheumatica,chain_of_thought,rag,S,1.0,0.0,2.0,2.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Polymyalgia Rheumatica,few_shot,non_rag,D,0.25,0.0,4.0,1.0,3.0,3
+GPT-5.5,openai,gpt-5.5,Polymyalgia Rheumatica,few_shot,non_rag,H,0.0,0.0,2.0,0.0,2.0,3
+GPT-5.5,openai,gpt-5.5,Polymyalgia Rheumatica,few_shot,non_rag,S,0.16666666666666666,0.2886751345948129,2.0,0.3333333333333333,1.6666666666666667,3
+GPT-5.5,openai,gpt-5.5,Polymyalgia Rheumatica,few_shot,rag,D,1.0,0.0,4.0,4.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Polymyalgia Rheumatica,few_shot,rag,H,1.0,0.0,2.0,2.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Polymyalgia Rheumatica,few_shot,rag,S,1.0,0.0,2.0,2.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Polymyalgia Rheumatica,zero_shot,non_rag,D,0.25,0.0,4.0,1.0,3.0,3
+GPT-5.5,openai,gpt-5.5,Polymyalgia Rheumatica,zero_shot,non_rag,H,0.0,0.0,2.0,0.0,2.0,3
+GPT-5.5,openai,gpt-5.5,Polymyalgia Rheumatica,zero_shot,non_rag,S,0.0,0.0,2.0,0.0,2.0,3
+GPT-5.5,openai,gpt-5.5,Polymyalgia Rheumatica,zero_shot,rag,D,1.0,0.0,4.0,4.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Polymyalgia Rheumatica,zero_shot,rag,H,1.0,0.0,2.0,2.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Polymyalgia Rheumatica,zero_shot,rag,S,1.0,0.0,2.0,2.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,chain_of_thought,non_rag,C,0.3111,0.10183138023222509,15.0,4.666666666666667,10.333333333333334,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,chain_of_thought,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,chain_of_thought,non_rag,S,0.25,0.0,4.0,1.0,3.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,chain_of_thought,non_rag,V,0.5555666666666667,0.19248857974782121,3.0,1.6666666666666667,1.3333333333333333,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,chain_of_thought,rag,C,0.8444666666666668,0.038509262954948026,15.0,12.666666666666666,2.3333333333333335,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,chain_of_thought,rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,chain_of_thought,rag,S,1.0,0.0,4.0,4.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,chain_of_thought,rag,V,0.6667,0.0,3.0,2.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,few_shot,non_rag,C,0.28886666666666666,0.13879107800335486,15.0,4.333333333333333,10.666666666666666,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,few_shot,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,few_shot,non_rag,S,0.5,0.0,4.0,2.0,2.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,few_shot,non_rag,V,0.3333,0.0,3.0,1.0,2.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,few_shot,rag,C,0.8222333333333335,0.038509262954948026,15.0,12.333333333333334,2.6666666666666665,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,few_shot,rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,few_shot,rag,S,1.0,0.0,4.0,4.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,few_shot,rag,V,0.6667,0.0,3.0,2.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,zero_shot,non_rag,C,0.4444333333333333,0.10184229638678292,15.0,6.666666666666667,8.333333333333334,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,zero_shot,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,zero_shot,non_rag,S,0.5,0.0,4.0,2.0,2.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,zero_shot,non_rag,V,0.4444333333333333,0.19248857974782124,3.0,1.3333333333333333,1.6666666666666667,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,zero_shot,rag,C,0.8000000000000002,0.0,15.0,12.0,3.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,zero_shot,rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,zero_shot,rag,S,1.0,0.0,4.0,4.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus,zero_shot,rag,V,0.6667,0.0,3.0,2.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,A,0.0,0.0,17.0,0.0,17.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,C,0.12090000000000001,0.005715767664977294,102.0,12.333333333333334,89.66666666666667,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,H,0.0,0.0,1.0,0.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,P,0.0,0.0,2.0,0.0,2.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,S,0.15383333333333335,0.0769500054147713,13.0,2.0,11.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,V,0.6666666666666666,0.5773502691896258,3.0,2.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),chain_of_thought,rag,A,0.7451,0.03394819582835002,17.0,12.666666666666666,4.333333333333333,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),chain_of_thought,rag,C,0.8365666666666667,0.02040032679476812,102.0,85.33333333333333,16.666666666666668,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),chain_of_thought,rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),chain_of_thought,rag,H,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),chain_of_thought,rag,P,0.0,0.0,2.0,0.0,2.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),chain_of_thought,rag,S,0.9231000000000001,0.0,13.0,12.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),chain_of_thought,rag,V,1.0,0.0,3.0,3.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,A,0.0,0.0,17.0,0.0,17.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,C,0.10456666666666665,0.03153891775780098,102.0,10.666666666666666,91.33333333333333,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,H,0.0,0.0,1.0,0.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,P,0.0,0.0,2.0,0.0,2.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,S,0.25639999999999996,0.08885420642828339,13.0,3.3333333333333335,9.666666666666666,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,V,0.5555666666666667,0.19248857974782121,3.0,1.6666666666666667,1.3333333333333333,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),few_shot,rag,A,0.6862666666666667,0.13585051834031897,17.0,11.666666666666666,5.333333333333333,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),few_shot,rag,C,0.8300333333333333,0.028290163190291703,102.0,84.66666666666667,17.333333333333332,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),few_shot,rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),few_shot,rag,H,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),few_shot,rag,P,0.0,0.0,2.0,0.0,2.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),few_shot,rag,S,0.9487333333333333,0.04439823570068222,13.0,12.333333333333334,0.6666666666666666,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),few_shot,rag,V,1.0,0.0,3.0,3.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,A,0.0,0.0,17.0,0.0,17.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,C,0.1471,0.00980000000000001,102.0,15.0,87.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,H,0.0,0.0,1.0,0.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,P,0.0,0.0,2.0,0.0,2.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,S,0.25643333333333335,0.04439823570068221,13.0,3.3333333333333335,9.666666666666666,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,V,0.4444333333333333,0.19248857974782124,3.0,1.3333333333333333,1.6666666666666667,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),zero_shot,rag,A,0.7451,0.03394819582835002,17.0,12.666666666666666,4.333333333333333,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),zero_shot,rag,C,0.8398333333333333,0.005658032638058286,102.0,85.66666666666667,16.333333333333332,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),zero_shot,rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),zero_shot,rag,H,1.0,0.0,1.0,1.0,0.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),zero_shot,rag,P,0.3333333333333333,0.5773502691896258,2.0,0.6666666666666666,1.3333333333333333,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),zero_shot,rag,S,0.9231000000000001,0.0,13.0,12.0,1.0,3
+GPT-5.5,openai,gpt-5.5,Type 2 Diabetes Mellitus (Audit),zero_shot,rag,V,1.0,0.0,3.0,3.0,0.0,3

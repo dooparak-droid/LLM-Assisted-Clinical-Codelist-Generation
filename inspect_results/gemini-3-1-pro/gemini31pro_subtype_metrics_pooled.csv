@@ -1,0 +1,206 @@
+model_label,provider,model,condition,strategy,retrieval_type,category,recall_mean,recall_std,gold_count_mean,tp_count_mean,fn_count_mean,n_epochs
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Asthma,chain_of_thought,non_rag,D,0.5,0.0,2.0,1.0,1.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Asthma,chain_of_thought,non_rag,S,0.04,0.02,50.0,2.0,48.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Asthma,chain_of_thought,non_rag,V,0.037,0.012817175976009693,90.0,3.3333333333333335,86.66666666666667,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Asthma,chain_of_thought,rag,D,0.5,0.0,2.0,1.0,1.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Asthma,chain_of_thought,rag,S,0.8333333333333334,0.011547005383792509,50.0,41.666666666666664,8.333333333333334,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Asthma,chain_of_thought,rag,V,0.5851999999999999,0.006408587988004829,90.0,52.666666666666664,37.333333333333336,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Asthma,few_shot,non_rag,D,0.5,0.0,2.0,1.0,1.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Asthma,few_shot,non_rag,S,0.03333333333333333,0.02309401076758503,50.0,1.6666666666666667,48.333333333333336,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Asthma,few_shot,non_rag,V,0.0074,0.006408587988004847,90.0,0.6666666666666666,89.33333333333333,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Asthma,few_shot,rag,D,0.3333333333333333,0.2886751345948129,2.0,0.6666666666666666,1.3333333333333333,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Asthma,few_shot,rag,S,0.84,0.0,50.0,42.0,8.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Asthma,few_shot,rag,V,0.5778,0.011099999999999999,90.0,52.0,38.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Asthma,zero_shot,non_rag,D,0.5,0.0,2.0,1.0,1.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Asthma,zero_shot,non_rag,S,0.05333333333333334,0.046188021535170064,50.0,2.6666666666666665,47.333333333333336,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Asthma,zero_shot,non_rag,V,0.0185,0.012817175976009693,90.0,1.6666666666666667,88.33333333333333,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Asthma,zero_shot,rag,D,0.5,0.0,2.0,1.0,1.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Asthma,zero_shot,rag,S,0.84,0.0,50.0,42.0,8.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Asthma,zero_shot,rag,V,0.5851999999999999,0.006408587988004829,90.0,52.666666666666664,37.333333333333336,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Atrial Fibrillation,chain_of_thought,non_rag,D,0.4444333333333333,0.19248857974782121,3.0,1.3333333333333333,1.6666666666666667,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Atrial Fibrillation,chain_of_thought,non_rag,S,0.1053,0.0,19.0,2.0,17.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Atrial Fibrillation,chain_of_thought,non_rag,V,0.3333333333333333,0.2886751345948129,2.0,0.6666666666666666,1.3333333333333333,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Atrial Fibrillation,chain_of_thought,rag,D,0.6667,0.0,3.0,2.0,1.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Atrial Fibrillation,chain_of_thought,rag,S,0.7895,0.0,19.0,15.0,4.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Atrial Fibrillation,chain_of_thought,rag,V,1.0,0.0,2.0,2.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Atrial Fibrillation,few_shot,non_rag,D,0.5555666666666667,0.1924885797478212,3.0,1.6666666666666667,1.3333333333333333,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Atrial Fibrillation,few_shot,non_rag,S,0.08773333333333333,0.030426359186293276,19.0,1.6666666666666667,17.333333333333332,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Atrial Fibrillation,few_shot,non_rag,V,0.0,0.0,2.0,0.0,2.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Atrial Fibrillation,few_shot,rag,D,0.6667,0.0,3.0,2.0,1.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Atrial Fibrillation,few_shot,rag,S,0.7895,0.0,19.0,15.0,4.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Atrial Fibrillation,few_shot,rag,V,1.0,0.0,2.0,2.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Atrial Fibrillation,zero_shot,non_rag,D,0.3333,0.0,3.0,1.0,2.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Atrial Fibrillation,zero_shot,non_rag,S,0.08773333333333333,0.030426359186293276,19.0,1.6666666666666667,17.333333333333332,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Atrial Fibrillation,zero_shot,non_rag,V,0.16666666666666666,0.2886751345948129,2.0,0.3333333333333333,1.6666666666666667,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Atrial Fibrillation,zero_shot,rag,D,0.6667,0.0,3.0,2.0,1.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Atrial Fibrillation,zero_shot,rag,S,0.7895,0.0,19.0,15.0,4.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Atrial Fibrillation,zero_shot,rag,V,1.0,0.0,2.0,2.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,chain_of_thought,non_rag,A,0.0,0.0,155.0,0.0,155.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,chain_of_thought,non_rag,C,0.0,0.0,29.0,0.0,29.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,chain_of_thought,non_rag,D,0.10853333333333333,0.03549314487803714,43.0,4.666666666666667,38.333333333333336,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,chain_of_thought,non_rag,H,0.09089999999999998,0.09090000000000001,11.0,1.0,10.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,chain_of_thought,non_rag,P,0.0,0.0,3.0,0.0,3.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,chain_of_thought,non_rag,S,0.06453333333333333,0.010750038759620049,93.0,6.0,87.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,chain_of_thought,non_rag,V,0.0,0.0,2.0,0.0,2.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,chain_of_thought,rag,A,0.0,0.0,155.0,0.0,155.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,chain_of_thought,rag,C,0.0,0.0,29.0,0.0,29.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,chain_of_thought,rag,D,0.32556666666666667,0.02325001792114004,43.0,14.0,29.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,chain_of_thought,rag,H,0.0,0.0,11.0,0.0,11.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,chain_of_thought,rag,P,0.0,0.0,3.0,0.0,3.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,chain_of_thought,rag,S,0.0932,0.01639908534034748,93.0,8.666666666666666,84.33333333333333,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,chain_of_thought,rag,V,0.0,0.0,2.0,0.0,2.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,few_shot,non_rag,A,0.004333333333333333,0.0037527767497325675,155.0,0.6666666666666666,154.33333333333334,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,few_shot,non_rag,C,0.0,0.0,29.0,0.0,29.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,few_shot,non_rag,D,0.11626666666666667,0.023250017921140054,43.0,5.0,38.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,few_shot,non_rag,H,0.060599999999999994,0.052481139469336975,11.0,0.6666666666666666,10.333333333333334,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,few_shot,non_rag,P,0.0,0.0,3.0,0.0,3.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,few_shot,non_rag,S,0.07883333333333332,0.024826061575153904,93.0,7.333333333333333,85.66666666666667,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,few_shot,non_rag,V,0.0,0.0,2.0,0.0,2.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,few_shot,rag,A,0.0,0.0,155.0,0.0,155.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,few_shot,rag,C,0.0,0.0,29.0,0.0,29.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,few_shot,rag,D,0.37209999999999993,0.0,43.0,16.0,27.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,few_shot,rag,H,0.0,0.0,11.0,0.0,11.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,few_shot,rag,P,0.0,0.0,3.0,0.0,3.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,few_shot,rag,S,0.10033333333333333,0.012413030787576957,93.0,9.333333333333334,83.66666666666667,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,few_shot,rag,V,0.0,0.0,2.0,0.0,2.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,zero_shot,non_rag,A,0.006466666666666667,0.0064500645991597124,155.0,1.0,154.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,zero_shot,non_rag,C,0.0,0.0,29.0,0.0,29.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,zero_shot,non_rag,D,0.124,0.0536935750346352,43.0,5.333333333333333,37.666666666666664,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,zero_shot,non_rag,H,0.0909,0.0,11.0,1.0,10.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,zero_shot,non_rag,P,0.0,0.0,3.0,0.0,3.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,zero_shot,non_rag,S,0.06810000000000001,0.006235382907247962,93.0,6.333333333333333,86.66666666666667,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,zero_shot,non_rag,V,0.0,0.0,2.0,0.0,2.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,zero_shot,rag,A,0.0,0.0,155.0,0.0,155.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,zero_shot,rag,C,0.0,0.0,29.0,0.0,29.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,zero_shot,rag,D,0.3798333333333333,0.013394526245199325,43.0,16.333333333333332,26.666666666666668,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,zero_shot,rag,H,0.030299999999999997,0.05248113946933698,11.0,0.3333333333333333,10.666666666666666,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,zero_shot,rag,P,0.0,0.0,3.0,0.0,3.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,zero_shot,rag,S,0.1183,0.0,93.0,11.0,82.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Coronary Heart Disease,zero_shot,rag,V,0.0,0.0,2.0,0.0,2.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,chain_of_thought,non_rag,C,0.0,0.0,3.0,0.0,3.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,chain_of_thought,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,chain_of_thought,non_rag,S,0.0026333333333333334,0.004561067126598044,126.0,0.3333333333333333,125.66666666666667,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,chain_of_thought,non_rag,V,0.0,0.0,1.0,0.0,1.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,chain_of_thought,rag,C,0.3333,0.0,3.0,1.0,2.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,chain_of_thought,rag,D,1.0,0.0,1.0,1.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,chain_of_thought,rag,S,0.6032,0.0,126.0,76.0,50.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,chain_of_thought,rag,V,1.0,0.0,1.0,1.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,few_shot,non_rag,C,0.0,0.0,3.0,0.0,3.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,few_shot,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,few_shot,non_rag,S,0.0026333333333333334,0.004561067126598044,126.0,0.3333333333333333,125.66666666666667,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,few_shot,non_rag,V,0.0,0.0,1.0,0.0,1.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,few_shot,rag,C,0.3333,0.0,3.0,1.0,2.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,few_shot,rag,D,1.0,0.0,1.0,1.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,few_shot,rag,S,0.6005333333333333,0.004618802153516994,126.0,75.66666666666667,50.333333333333336,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,few_shot,rag,V,1.0,0.0,1.0,1.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,zero_shot,non_rag,C,0.0,0.0,3.0,0.0,3.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,zero_shot,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,zero_shot,non_rag,S,0.0,0.0,126.0,0.0,126.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,zero_shot,non_rag,V,0.0,0.0,1.0,0.0,1.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,zero_shot,rag,C,0.22219999999999998,0.19243084472090227,3.0,0.6666666666666666,2.3333333333333335,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,zero_shot,rag,D,1.0,0.0,1.0,1.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,zero_shot,rag,S,0.5979,0.009179869280115,126.0,75.33333333333333,50.666666666666664,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Hypothyroidism,zero_shot,rag,V,1.0,0.0,1.0,1.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,chain_of_thought,non_rag,C,0.0,0.0,9.0,0.0,9.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,chain_of_thought,non_rag,D,0.25,0.0,4.0,1.0,3.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,chain_of_thought,non_rag,P,0.0,0.0,1.0,0.0,1.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,chain_of_thought,non_rag,S,0.0,0.0,23.0,0.0,23.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,chain_of_thought,non_rag,V,0.0,0.0,7.0,0.0,7.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,chain_of_thought,rag,C,0.8889,0.0,9.0,8.0,1.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,chain_of_thought,rag,D,1.0,0.0,4.0,4.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,chain_of_thought,rag,P,1.0,0.0,1.0,1.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,chain_of_thought,rag,S,0.9275000000000001,0.02511473670974867,23.0,21.333333333333332,1.6666666666666667,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,chain_of_thought,rag,V,1.0,0.0,7.0,7.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,few_shot,non_rag,C,0.0,0.0,9.0,0.0,9.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,few_shot,non_rag,D,0.25,0.0,4.0,1.0,3.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,few_shot,non_rag,P,0.0,0.0,1.0,0.0,1.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,few_shot,non_rag,S,0.0,0.0,23.0,0.0,23.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,few_shot,non_rag,V,0.0,0.0,7.0,0.0,7.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,few_shot,rag,C,0.8889,0.0,9.0,8.0,1.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,few_shot,rag,D,1.0,0.0,4.0,4.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,few_shot,rag,P,1.0,0.0,1.0,1.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,few_shot,rag,S,0.9420000000000001,0.02511473670974876,23.0,21.666666666666668,1.3333333333333333,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,few_shot,rag,V,1.0,0.0,7.0,7.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,zero_shot,non_rag,C,0.0,0.0,9.0,0.0,9.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,zero_shot,non_rag,D,0.25,0.0,4.0,1.0,3.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,zero_shot,non_rag,P,0.0,0.0,1.0,0.0,1.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,zero_shot,non_rag,S,0.0,0.0,23.0,0.0,23.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,zero_shot,non_rag,V,0.0,0.0,7.0,0.0,7.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,zero_shot,rag,C,0.8889,0.0,9.0,8.0,1.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,zero_shot,rag,D,1.0,0.0,4.0,4.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,zero_shot,rag,P,0.6666666666666666,0.5773502691896258,1.0,0.6666666666666666,0.3333333333333333,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,zero_shot,rag,S,0.9275000000000001,0.02511473670974867,23.0,21.333333333333332,1.6666666666666667,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Multiple Sclerosis,zero_shot,rag,V,1.0,0.0,7.0,7.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Polymyalgia Rheumatica,chain_of_thought,non_rag,D,0.0,0.0,4.0,0.0,4.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Polymyalgia Rheumatica,chain_of_thought,non_rag,H,0.0,0.0,2.0,0.0,2.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Polymyalgia Rheumatica,chain_of_thought,non_rag,S,0.0,0.0,2.0,0.0,2.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Polymyalgia Rheumatica,chain_of_thought,rag,D,1.0,0.0,4.0,4.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Polymyalgia Rheumatica,chain_of_thought,rag,H,1.0,0.0,2.0,2.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Polymyalgia Rheumatica,chain_of_thought,rag,S,1.0,0.0,2.0,2.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Polymyalgia Rheumatica,few_shot,non_rag,D,0.0,0.0,4.0,0.0,4.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Polymyalgia Rheumatica,few_shot,non_rag,H,0.0,0.0,2.0,0.0,2.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Polymyalgia Rheumatica,few_shot,non_rag,S,0.0,0.0,2.0,0.0,2.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Polymyalgia Rheumatica,few_shot,rag,D,1.0,0.0,4.0,4.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Polymyalgia Rheumatica,few_shot,rag,H,1.0,0.0,2.0,2.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Polymyalgia Rheumatica,few_shot,rag,S,1.0,0.0,2.0,2.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Polymyalgia Rheumatica,zero_shot,non_rag,D,0.0,0.0,4.0,0.0,4.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Polymyalgia Rheumatica,zero_shot,non_rag,H,0.0,0.0,2.0,0.0,2.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Polymyalgia Rheumatica,zero_shot,non_rag,S,0.0,0.0,2.0,0.0,2.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Polymyalgia Rheumatica,zero_shot,rag,D,1.0,0.0,4.0,4.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Polymyalgia Rheumatica,zero_shot,rag,H,1.0,0.0,2.0,2.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Polymyalgia Rheumatica,zero_shot,rag,S,1.0,0.0,2.0,2.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus,chain_of_thought,non_rag,C,0.0667,0.0,15.0,1.0,14.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus,chain_of_thought,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus,chain_of_thought,non_rag,S,0.4166666666666667,0.14433756729740643,4.0,1.6666666666666667,2.3333333333333335,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus,chain_of_thought,non_rag,V,0.11109999999999999,0.19243084472090227,3.0,0.3333333333333333,2.6666666666666665,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus,few_shot,non_rag,C,0.11109999999999999,0.03845152792802908,15.0,1.6666666666666667,13.333333333333334,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus,few_shot,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus,few_shot,non_rag,S,0.3333333333333333,0.14433756729740646,4.0,1.3333333333333333,2.6666666666666665,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus,few_shot,non_rag,V,0.11109999999999999,0.19243084472090227,3.0,0.3333333333333333,2.6666666666666665,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus,few_shot,rag,C,0.8667,,15.0,13.0,2.0,1
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus,few_shot,rag,D,1.0,,1.0,1.0,0.0,1
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus,few_shot,rag,S,1.0,,4.0,4.0,0.0,1
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus,few_shot,rag,V,0.6667,,3.0,2.0,1.0,1
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus,zero_shot,non_rag,C,0.3111,0.1924308447209023,15.0,4.666666666666667,10.333333333333334,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus,zero_shot,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus,zero_shot,non_rag,S,0.25,0.25,4.0,1.0,3.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus,zero_shot,non_rag,V,0.0,0.0,3.0,0.0,3.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus,zero_shot,rag,C,0.8667,,15.0,13.0,2.0,1
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus,zero_shot,rag,D,1.0,,1.0,1.0,0.0,1
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus,zero_shot,rag,S,1.0,,4.0,4.0,0.0,1
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus,zero_shot,rag,V,0.6667,,3.0,2.0,1.0,1
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,A,0.0,0.0,17.0,0.0,17.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,C,0.03266666666666667,0.005658032638058333,102.0,3.3333333333333335,98.66666666666667,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,H,0.0,0.0,1.0,0.0,1.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,P,0.0,0.0,2.0,0.0,2.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,S,0.12816666666666665,0.04439823570068222,13.0,1.6666666666666667,11.333333333333334,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,V,0.11109999999999999,0.19243084472090227,3.0,0.3333333333333333,2.6666666666666665,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,A,0.0,0.0,17.0,0.0,17.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,C,0.03266666666666667,0.014969747270189076,102.0,3.3333333333333335,98.66666666666667,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,H,0.0,0.0,1.0,0.0,1.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,P,0.0,0.0,2.0,0.0,2.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,S,0.12816666666666665,0.04439823570068222,13.0,1.6666666666666667,11.333333333333334,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,V,0.11109999999999999,0.19243084472090227,3.0,0.3333333333333333,2.6666666666666665,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),few_shot,rag,A,0.7647,,17.0,13.0,4.0,1
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),few_shot,rag,C,0.8529,,102.0,87.0,15.0,1
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),few_shot,rag,D,1.0,,1.0,1.0,0.0,1
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),few_shot,rag,H,0.0,,1.0,0.0,1.0,1
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),few_shot,rag,P,0.0,,2.0,0.0,2.0,1
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),few_shot,rag,S,1.0,,13.0,13.0,0.0,1
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),few_shot,rag,V,1.0,,3.0,3.0,0.0,1
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,A,0.0,0.0,17.0,0.0,17.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,C,0.06860000000000001,0.025928362848432987,102.0,7.0,95.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,H,0.0,0.0,1.0,0.0,1.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,P,0.0,0.0,2.0,0.0,2.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,S,0.0769,0.0769,13.0,1.0,12.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,V,0.0,0.0,3.0,0.0,3.0,3
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),zero_shot,rag,A,0.7647,,17.0,13.0,4.0,1
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),zero_shot,rag,C,0.8529,,102.0,87.0,15.0,1
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),zero_shot,rag,D,1.0,,1.0,1.0,0.0,1
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),zero_shot,rag,H,0.0,,1.0,0.0,1.0,1
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),zero_shot,rag,P,0.0,,2.0,0.0,2.0,1
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),zero_shot,rag,S,1.0,,13.0,13.0,0.0,1
+Gemini 3.1 Pro,google,gemini-3.1-pro-preview,Type 2 Diabetes Mellitus (Audit),zero_shot,rag,V,1.0,,3.0,3.0,0.0,1

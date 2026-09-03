@@ -1,0 +1,2 @@
+model_label,n_samples,started_at,completed_at,duration_seconds,duration_hms
+Gemini-3.1-Flash-Lite,126,2026-07-27T14:10:29+00:00,2026-07-27T14:19:25+00:00,536.0,0:08:56

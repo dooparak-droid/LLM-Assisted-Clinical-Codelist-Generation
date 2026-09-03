@@ -1,0 +1,143 @@
+condition,strategy,retrieval_type,epoch,model_label,provider,model,scope,precision,recall,f1,f05,true_positives,false_positives,false_negatives,generated_count,gold_count,size_ratio
+Type 2 Diabetes Mellitus,zero_shot,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,22,23,22,23,0.9565
+Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,22,139,22,139,0.1583
+Type 2 Diabetes Mellitus,zero_shot,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,6,23,6,23,0.2609
+Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,6,139,6,139,0.0432
+Type 2 Diabetes Mellitus,zero_shot,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,33,23,33,23,1.4348
+Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,33,139,33,139,0.2374
+Type 2 Diabetes Mellitus,zero_shot,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.2,0.1304,0.1579,0.1807,3,12,20,15,23,0.6522
+Type 2 Diabetes Mellitus (Audit),zero_shot,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.3333,0.036,0.0649,0.1257,5,10,134,15,139,0.1079
+Type 2 Diabetes Mellitus,zero_shot,rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,0,23,0,23,0.0
+Type 2 Diabetes Mellitus,zero_shot,rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.125,0.3478,0.1839,0.1434,8,56,15,64,23,2.7826
+Type 2 Diabetes Mellitus (Audit),zero_shot,rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.2656,0.1223,0.1675,0.2152,17,47,122,64,139,0.4604
+Type 2 Diabetes Mellitus,few_shot,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,26,23,26,23,1.1304
+Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,26,139,26,139,0.1871
+Type 2 Diabetes Mellitus,few_shot,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,10,23,10,23,0.4348
+Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,10,139,10,139,0.0719
+Type 2 Diabetes Mellitus,few_shot,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,21,23,21,23,0.913
+Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,21,139,21,139,0.1511
+Type 2 Diabetes Mellitus,few_shot,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.069,0.1739,0.0988,0.0785,4,54,19,58,23,2.5217
+Type 2 Diabetes Mellitus (Audit),few_shot,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.1724,0.0719,0.1015,0.1347,10,48,129,58,139,0.4173
+Type 2 Diabetes Mellitus,few_shot,rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.1014,0.3043,0.1522,0.117,7,62,16,69,23,3.0
+Type 2 Diabetes Mellitus (Audit),few_shot,rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.2754,0.1367,0.1827,0.2289,19,50,120,69,139,0.4964
+Type 2 Diabetes Mellitus,few_shot,rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0758,0.2174,0.1124,0.0872,5,61,18,66,23,2.8696
+Type 2 Diabetes Mellitus (Audit),few_shot,rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.197,0.0935,0.1268,0.1613,13,53,126,66,139,0.4748
+Type 2 Diabetes Mellitus,chain_of_thought,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,6,23,6,23,0.2609
+Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,6,139,6,139,0.0432
+Type 2 Diabetes Mellitus,chain_of_thought,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,26,23,26,23,1.1304
+Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,26,139,26,139,0.1871
+Type 2 Diabetes Mellitus,chain_of_thought,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,37,23,37,23,1.6087
+Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,37,139,37,139,0.2662
+Type 2 Diabetes Mellitus,chain_of_thought,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.102,0.4348,0.1653,0.1204,10,88,13,98,23,4.2609
+Type 2 Diabetes Mellitus (Audit),chain_of_thought,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.2041,0.1439,0.1688,0.1883,20,78,119,98,139,0.705
+Type 2 Diabetes Mellitus,chain_of_thought,rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.125,0.3478,0.1839,0.1434,8,56,15,64,23,2.7826
+Type 2 Diabetes Mellitus (Audit),chain_of_thought,rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.25,0.1151,0.1576,0.2025,16,48,123,64,139,0.4604
+Type 2 Diabetes Mellitus,chain_of_thought,rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,0,23,0,23,0.0
+Asthma,zero_shot,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,28,142,28,142,0.1972
+Asthma,zero_shot,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,29,142,29,142,0.2042
+Asthma,zero_shot,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,52,142,52,142,0.3662
+Asthma,zero_shot,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.3333,0.1338,0.191,0.2567,19,38,123,57,142,0.4014
+Asthma,zero_shot,rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.2857,0.1831,0.2232,0.2569,26,65,116,91,142,0.6408
+Asthma,zero_shot,rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.3056,0.1549,0.2056,0.2558,22,50,120,72,142,0.507
+Asthma,few_shot,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,21,142,21,142,0.1479
+Asthma,few_shot,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,13,142,13,142,0.0915
+Asthma,few_shot,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,6,142,6,142,0.0423
+Asthma,few_shot,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.2222,0.0423,0.071,0.1201,6,21,136,27,142,0.1901
+Asthma,few_shot,rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.1935,0.0423,0.0694,0.1128,6,25,136,31,142,0.2183
+Asthma,few_shot,rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.2,0.0493,0.0791,0.1241,7,28,135,35,142,0.2465
+Asthma,chain_of_thought,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,27,142,27,142,0.1901
+Asthma,chain_of_thought,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,19,142,19,142,0.1338
+Asthma,chain_of_thought,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,19,142,19,142,0.1338
+Asthma,chain_of_thought,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,0,142,0,142,0.0
+Asthma,chain_of_thought,rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.2941,0.1408,0.1905,0.2415,20,48,122,68,142,0.4789
+Asthma,chain_of_thought,rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.1579,0.0634,0.0905,0.1216,9,48,133,57,142,0.4014
+Atrial Fibrillation,zero_shot,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,23,24,23,24,0.9583
+Atrial Fibrillation,zero_shot,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,21,24,21,24,0.875
+Atrial Fibrillation,zero_shot,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,23,24,23,24,0.9583
+Atrial Fibrillation,zero_shot,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.1558,0.5,0.2376,0.1807,12,65,12,77,24,3.2083
+Atrial Fibrillation,zero_shot,rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.225,0.375,0.2813,0.2446,9,31,15,40,24,1.6667
+Atrial Fibrillation,zero_shot,rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,0,24,0,24,0.0
+Atrial Fibrillation,few_shot,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,15,24,15,24,0.625
+Atrial Fibrillation,few_shot,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,15,24,15,24,0.625
+Atrial Fibrillation,few_shot,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,8,24,8,24,0.3333
+Atrial Fibrillation,few_shot,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,0,24,0,24,0.0
+Atrial Fibrillation,few_shot,rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.15,0.375,0.2143,0.1705,9,51,15,60,24,2.5
+Atrial Fibrillation,few_shot,rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.1509,0.3333,0.2078,0.1694,8,45,16,53,24,2.2083
+Atrial Fibrillation,chain_of_thought,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,24,24,24,24,1.0
+Atrial Fibrillation,chain_of_thought,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,7,24,7,24,0.2917
+Atrial Fibrillation,chain_of_thought,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,34,24,34,24,1.4167
+Atrial Fibrillation,chain_of_thought,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.1594,0.4583,0.2366,0.1833,11,58,13,69,24,2.875
+Atrial Fibrillation,chain_of_thought,rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,0,24,0,24,0.0
+Atrial Fibrillation,chain_of_thought,rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.1667,0.4167,0.2381,0.1894,10,50,14,60,24,2.5
+Hypothyroidism,zero_shot,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,27,131,27,131,0.2061
+Hypothyroidism,zero_shot,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,14,131,14,131,0.1069
+Hypothyroidism,zero_shot,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,19,131,19,131,0.145
+Hypothyroidism,zero_shot,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.25,0.2137,0.2305,0.2418,28,84,103,112,131,0.855
+Hypothyroidism,zero_shot,rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.2791,0.1832,0.2212,0.2526,24,62,107,86,131,0.6565
+Hypothyroidism,zero_shot,rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,0,131,0,131,0.0
+Hypothyroidism,few_shot,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,15,131,15,131,0.1145
+Hypothyroidism,few_shot,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,17,131,17,131,0.1298
+Hypothyroidism,few_shot,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,12,131,12,131,0.0916
+Hypothyroidism,few_shot,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,0,131,0,131,0.0
+Hypothyroidism,few_shot,rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.223,0.2366,0.2296,0.2256,31,108,100,139,131,1.0611
+Hypothyroidism,few_shot,rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,0,131,0,131,0.0
+Hypothyroidism,chain_of_thought,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,23,131,23,131,0.1756
+Hypothyroidism,chain_of_thought,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,24,131,24,131,0.1832
+Hypothyroidism,chain_of_thought,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,0,131,0,131,0.0
+Hypothyroidism,chain_of_thought,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,0,131,0,131,0.0
+Hypothyroidism,chain_of_thought,rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.284,0.1756,0.217,0.2528,23,58,108,81,131,0.6183
+Hypothyroidism,chain_of_thought,rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,1,131,1,131,0.0076
+Multiple Sclerosis,zero_shot,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,7,44,7,44,0.1591
+Multiple Sclerosis,zero_shot,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,24,44,24,44,0.5455
+Multiple Sclerosis,zero_shot,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,47,44,47,44,1.0682
+Multiple Sclerosis,zero_shot,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.3529,0.2727,0.3077,0.3333,12,22,32,34,44,0.7727
+Multiple Sclerosis,zero_shot,rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.3846,0.4545,0.4167,0.3968,20,32,24,52,44,1.1818
+Multiple Sclerosis,zero_shot,rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.3286,0.5227,0.4035,0.355,23,47,21,70,44,1.5909
+Multiple Sclerosis,few_shot,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,16,44,16,44,0.3636
+Multiple Sclerosis,few_shot,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,23,44,23,44,0.5227
+Multiple Sclerosis,few_shot,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,20,44,20,44,0.4545
+Multiple Sclerosis,few_shot,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,0,44,0,44,0.0
+Multiple Sclerosis,few_shot,rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.2763,0.4773,0.35,0.3017,21,55,23,76,44,1.7273
+Multiple Sclerosis,few_shot,rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.2771,0.5227,0.3622,0.3058,23,60,21,83,44,1.8864
+Multiple Sclerosis,chain_of_thought,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,24,44,24,44,0.5455
+Multiple Sclerosis,chain_of_thought,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,21,44,21,44,0.4773
+Multiple Sclerosis,chain_of_thought,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,29,44,29,44,0.6591
+Multiple Sclerosis,chain_of_thought,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.3922,0.4545,0.4211,0.4033,20,31,24,51,44,1.1591
+Multiple Sclerosis,chain_of_thought,rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.1273,0.1591,0.1414,0.1326,7,48,37,55,44,1.25
+Multiple Sclerosis,chain_of_thought,rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.371,0.5227,0.434,0.3939,23,39,21,62,44,1.4091
+Polymyalgia Rheumatica,zero_shot,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,28,8,28,8,3.5
+Polymyalgia Rheumatica,zero_shot,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,22,8,22,8,2.75
+Polymyalgia Rheumatica,zero_shot,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,17,8,17,8,2.125
+Polymyalgia Rheumatica,zero_shot,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0412,1.0,0.0792,0.051,8,186,0,194,8,24.25
+Polymyalgia Rheumatica,zero_shot,rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.1633,1.0,0.2807,0.1961,8,41,0,49,8,6.125
+Polymyalgia Rheumatica,zero_shot,rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0588,1.0,0.1111,0.0724,8,128,0,136,8,17.0
+Polymyalgia Rheumatica,few_shot,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,20,8,20,8,2.5
+Polymyalgia Rheumatica,few_shot,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,6,8,6,8,0.75
+Polymyalgia Rheumatica,few_shot,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,14,8,14,8,1.75
+Polymyalgia Rheumatica,few_shot,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.5,0.875,0.6364,0.5469,7,7,1,14,8,1.75
+Polymyalgia Rheumatica,few_shot,rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.2121,0.875,0.3415,0.25,7,26,1,33,8,4.125
+Polymyalgia Rheumatica,few_shot,rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.1714,0.75,0.2791,0.2027,6,29,2,35,8,4.375
+Polymyalgia Rheumatica,chain_of_thought,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,3,8,3,8,0.375
+Polymyalgia Rheumatica,chain_of_thought,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,17,8,17,8,2.125
+Polymyalgia Rheumatica,chain_of_thought,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,10,8,10,8,1.25
+Polymyalgia Rheumatica,chain_of_thought,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.2188,0.875,0.35,0.2574,7,25,1,32,8,4.0
+Polymyalgia Rheumatica,chain_of_thought,rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.1127,1.0,0.2025,0.137,8,63,0,71,8,8.875
+Polymyalgia Rheumatica,chain_of_thought,rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,0,8,0,8,0.0
+Coronary Heart Disease,zero_shot,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,22,336,22,336,0.0655
+Coronary Heart Disease,zero_shot,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,35,336,35,336,0.1042
+Coronary Heart Disease,zero_shot,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,32,336,32,336,0.0952
+Coronary Heart Disease,zero_shot,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,0,336,0,336,0.0
+Coronary Heart Disease,zero_shot,rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.093,0.0119,0.0211,0.0394,4,39,332,43,336,0.128
+Coronary Heart Disease,zero_shot,rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.125,0.0179,0.0312,0.0569,6,42,330,48,336,0.1429
+Coronary Heart Disease,few_shot,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,9,336,9,336,0.0268
+Coronary Heart Disease,few_shot,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,17,336,17,336,0.0506
+Coronary Heart Disease,few_shot,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,14,336,14,336,0.0417
+Coronary Heart Disease,few_shot,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0588,0.003,0.0057,0.0125,1,16,335,17,336,0.0506
+Coronary Heart Disease,few_shot,rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0968,0.0179,0.0302,0.0514,6,56,330,62,336,0.1845
+Coronary Heart Disease,few_shot,rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0857,0.0268,0.0408,0.0595,9,96,327,105,336,0.3125
+Coronary Heart Disease,chain_of_thought,non_rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,12,336,12,336,0.0357
+Coronary Heart Disease,chain_of_thought,non_rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,20,336,20,336,0.0595
+Coronary Heart Disease,chain_of_thought,non_rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,18,336,18,336,0.0536
+Coronary Heart Disease,chain_of_thought,rag,1,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.1013,0.0238,0.0386,0.0613,8,71,328,79,336,0.2351
+Coronary Heart Disease,chain_of_thought,rag,2,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.0,0.0,0.0,0.0,0,0,336,0,336,0.0
+Coronary Heart Disease,chain_of_thought,rag,3,MedGemma 1.5-4B,ollama,medgemma:4b,full,0.093,0.0119,0.0211,0.0394,4,39,332,43,336,0.128

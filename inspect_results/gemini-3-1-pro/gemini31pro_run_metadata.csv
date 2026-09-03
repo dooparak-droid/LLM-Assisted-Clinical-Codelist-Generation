@@ -1,0 +1,2 @@
+model_label,n_samples,started_at,completed_at,duration_seconds,duration_hms
+Gemini 3.1 Pro,126,2026-07-30T07:57:21+00:00,2026-07-30T09:21:07+00:00,5026.0,1:23:46

@@ -1,0 +1,8 @@
+chatlas[openai,google,ollama]
+inspect-ai
+chromadb
+rank-bm25
+sentence-transformers
+pandas
+scipy
+python-dotenv

@@ -1,0 +1,217 @@
+model_label,provider,model,condition,strategy,retrieval_type,category,recall_mean,recall_std,gold_count_mean,tp_count_mean,fn_count_mean,n_epochs
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Asthma,chain_of_thought,non_rag,D,0.5,0.0,2.0,1.0,1.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Asthma,chain_of_thought,non_rag,S,0.08,0.06000000000000001,50.0,4.0,46.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Asthma,chain_of_thought,non_rag,V,0.04070000000000001,0.006408587988004846,90.0,3.6666666666666665,86.33333333333333,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Asthma,chain_of_thought,rag,D,0.0,0.0,2.0,0.0,2.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Asthma,chain_of_thought,rag,S,0.18666666666666668,0.011547005383792528,50.0,9.333333333333334,40.666666666666664,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Asthma,chain_of_thought,rag,V,0.051833333333333335,0.01287491100292865,90.0,4.666666666666667,85.33333333333333,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Asthma,few_shot,non_rag,D,0.5,0.0,2.0,1.0,1.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Asthma,few_shot,non_rag,S,0.08666666666666667,0.041633319989322654,50.0,4.333333333333333,45.666666666666664,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Asthma,few_shot,non_rag,V,0.0222,0.011100000000000002,90.0,2.0,88.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Asthma,few_shot,rag,D,0.5,0.0,2.0,1.0,1.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Asthma,few_shot,rag,S,0.21333333333333335,0.02309401076758502,50.0,10.666666666666666,39.333333333333336,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Asthma,few_shot,rag,V,0.048133333333333334,0.017010095041866555,90.0,4.333333333333333,85.66666666666667,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Asthma,zero_shot,non_rag,D,0.5,0.0,2.0,1.0,1.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Asthma,zero_shot,non_rag,S,0.08666666666666667,0.05033222956847167,50.0,4.333333333333333,45.666666666666664,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Asthma,zero_shot,non_rag,V,0.025900000000000003,0.012817175976009692,90.0,2.3333333333333335,87.66666666666667,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Asthma,zero_shot,rag,D,0.5,0.0,2.0,1.0,1.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Asthma,zero_shot,rag,S,0.5333333333333333,0.2663331247391757,50.0,26.666666666666668,23.333333333333332,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Asthma,zero_shot,rag,V,0.24813333333333332,0.29699101557679036,90.0,22.333333333333332,67.66666666666667,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Atrial Fibrillation,chain_of_thought,non_rag,D,0.5555666666666667,0.19248857974782121,3.0,1.6666666666666667,1.3333333333333333,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Atrial Fibrillation,chain_of_thought,non_rag,S,0.017533333333333335,0.030368624159374316,19.0,0.3333333333333333,18.666666666666668,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Atrial Fibrillation,chain_of_thought,non_rag,V,0.0,0.0,2.0,0.0,2.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Atrial Fibrillation,chain_of_thought,rag,D,0.4444333333333333,0.19248857974782121,3.0,1.3333333333333333,1.6666666666666667,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Atrial Fibrillation,chain_of_thought,rag,S,0.38596666666666674,0.08040238387842326,19.0,7.333333333333333,11.666666666666666,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Atrial Fibrillation,chain_of_thought,rag,V,0.3333333333333333,0.2886751345948129,2.0,0.6666666666666666,1.3333333333333333,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Atrial Fibrillation,few_shot,non_rag,D,0.6667,0.0,3.0,2.0,1.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Atrial Fibrillation,few_shot,non_rag,S,0.03506666666666667,0.030368624159374316,19.0,0.6666666666666666,18.333333333333332,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Atrial Fibrillation,few_shot,non_rag,V,0.16666666666666666,0.2886751345948129,2.0,0.3333333333333333,1.6666666666666667,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Atrial Fibrillation,few_shot,rag,D,0.6667,0.0,3.0,2.0,1.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Atrial Fibrillation,few_shot,rag,S,0.45613333333333334,0.08040238387842323,19.0,8.666666666666666,10.333333333333334,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Atrial Fibrillation,few_shot,rag,V,0.6666666666666666,0.28867513459481287,2.0,1.3333333333333333,0.6666666666666666,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Atrial Fibrillation,zero_shot,non_rag,D,0.6667,0.0,3.0,2.0,1.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Atrial Fibrillation,zero_shot,non_rag,S,0.03506666666666667,0.030368624159374316,19.0,0.6666666666666666,18.333333333333332,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Atrial Fibrillation,zero_shot,non_rag,V,0.3333333333333333,0.2886751345948129,2.0,0.6666666666666666,1.3333333333333333,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Atrial Fibrillation,zero_shot,rag,D,0.6667,0.0,3.0,2.0,1.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Atrial Fibrillation,zero_shot,rag,S,0.3333333333333333,0.030368624159374295,19.0,6.333333333333333,12.666666666666666,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Atrial Fibrillation,zero_shot,rag,V,0.6666666666666666,0.5773502691896258,2.0,1.3333333333333333,0.6666666666666666,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,chain_of_thought,non_rag,A,0.0021666666666666666,0.0037527767497325675,155.0,0.3333333333333333,154.66666666666666,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,chain_of_thought,non_rag,C,0.0,0.0,29.0,0.0,29.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,chain_of_thought,non_rag,D,0.09303333333333334,0.02325001792114005,43.0,4.0,39.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,chain_of_thought,non_rag,H,0.0,0.0,11.0,0.0,11.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,chain_of_thought,non_rag,P,0.0,0.0,3.0,0.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,chain_of_thought,non_rag,S,0.014366666666666666,0.006177647880328993,93.0,1.3333333333333333,91.66666666666667,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,chain_of_thought,non_rag,V,0.0,0.0,2.0,0.0,2.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,chain_of_thought,rag,A,0.0,0.0,155.0,0.0,155.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,chain_of_thought,rag,C,0.0,0.0,29.0,0.0,29.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,chain_of_thought,rag,D,0.13953333333333331,0.04024131376251691,43.0,6.0,37.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,chain_of_thought,rag,H,0.030299999999999997,0.052481139469336975,11.0,0.3333333333333333,10.666666666666666,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,chain_of_thought,rag,P,0.0,0.0,3.0,0.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,chain_of_thought,rag,S,0.025099999999999997,0.01639908534034749,93.0,2.3333333333333335,90.66666666666667,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,chain_of_thought,rag,V,0.0,0.0,2.0,0.0,2.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,few_shot,non_rag,A,0.0,0.0,155.0,0.0,155.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,few_shot,non_rag,C,0.0,0.0,29.0,0.0,29.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,few_shot,non_rag,D,0.1008,0.0268467875173176,43.0,4.333333333333333,38.666666666666664,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,few_shot,non_rag,H,0.0,0.0,11.0,0.0,11.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,few_shot,non_rag,P,0.0,0.0,3.0,0.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,few_shot,non_rag,S,0.017933333333333332,0.006177647880328995,93.0,1.6666666666666667,91.33333333333333,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,few_shot,non_rag,V,0.0,0.0,2.0,0.0,2.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,few_shot,rag,A,0.0,0.0,155.0,0.0,155.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,few_shot,rag,C,0.0,0.0,29.0,0.0,29.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,few_shot,rag,D,0.13176666666666667,0.05848472735110709,43.0,5.666666666666667,37.333333333333336,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,few_shot,rag,H,0.0,0.0,11.0,0.0,11.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,few_shot,rag,P,0.0,0.0,3.0,0.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,few_shot,rag,S,0.021533333333333335,0.010750038759620049,93.0,2.0,91.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,few_shot,rag,V,0.0,0.0,2.0,0.0,2.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,zero_shot,non_rag,A,0.0,0.0,155.0,0.0,155.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,zero_shot,non_rag,C,0.0,0.0,29.0,0.0,29.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,zero_shot,non_rag,D,0.13176666666666667,0.03553678844990545,43.0,5.666666666666667,37.333333333333336,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,zero_shot,non_rag,H,0.0,0.0,11.0,0.0,11.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,zero_shot,non_rag,P,0.0,0.0,3.0,0.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,zero_shot,non_rag,S,0.010799999999999999,0.0,93.0,1.0,92.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,zero_shot,non_rag,V,0.0,0.0,2.0,0.0,2.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,zero_shot,rag,A,0.0,0.0,155.0,0.0,155.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,zero_shot,rag,C,0.0,0.0,29.0,0.0,29.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,zero_shot,rag,D,0.1085,0.07102992327181551,43.0,4.666666666666667,38.333333333333336,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,zero_shot,rag,H,0.030299999999999997,0.05248113946933698,11.0,0.3333333333333333,10.666666666666666,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,zero_shot,rag,P,0.0,0.0,3.0,0.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,zero_shot,rag,S,0.010766666666666667,0.018648413694824912,93.0,1.0,92.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Coronary Heart Disease,zero_shot,rag,V,0.0,0.0,2.0,0.0,2.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,chain_of_thought,non_rag,C,0.0,0.0,3.0,0.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,chain_of_thought,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,chain_of_thought,non_rag,S,0.0,0.0,126.0,0.0,126.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,chain_of_thought,non_rag,V,0.0,0.0,1.0,0.0,1.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,chain_of_thought,rag,C,0.0,0.0,3.0,0.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,chain_of_thought,rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,chain_of_thought,rag,S,0.13493333333333332,0.028636398749377217,126.0,17.0,109.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,chain_of_thought,rag,V,1.0,0.0,1.0,1.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,few_shot,non_rag,C,0.0,0.0,3.0,0.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,few_shot,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,few_shot,non_rag,S,0.0,0.0,126.0,0.0,126.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,few_shot,non_rag,V,0.0,0.0,1.0,0.0,1.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,few_shot,rag,C,0.0,0.0,3.0,0.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,few_shot,rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,few_shot,rag,S,0.1852,0.03208005610967662,126.0,23.333333333333332,102.66666666666667,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,few_shot,rag,V,1.0,0.0,1.0,1.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,zero_shot,non_rag,C,0.0,0.0,3.0,0.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,zero_shot,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,zero_shot,non_rag,S,0.0,0.0,126.0,0.0,126.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,zero_shot,non_rag,V,0.0,0.0,1.0,0.0,1.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,zero_shot,rag,C,0.0,0.0,3.0,0.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,zero_shot,rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,zero_shot,rag,S,0.24073333333333335,0.04655430520728812,126.0,30.333333333333332,95.66666666666667,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Hypothyroidism,zero_shot,rag,V,1.0,0.0,1.0,1.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,chain_of_thought,non_rag,C,0.0,0.0,9.0,0.0,9.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,chain_of_thought,non_rag,D,0.25,0.0,4.0,1.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,chain_of_thought,non_rag,P,0.0,0.0,1.0,0.0,1.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,chain_of_thought,non_rag,S,0.0,0.0,23.0,0.0,23.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,chain_of_thought,non_rag,V,0.0,0.0,7.0,0.0,7.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,chain_of_thought,rag,C,0.6296333333333334,0.2796485174881736,9.0,5.666666666666667,3.3333333333333335,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,chain_of_thought,rag,D,0.8333333333333334,0.28867513459481287,4.0,3.3333333333333335,0.6666666666666666,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,chain_of_thought,rag,P,0.0,0.0,1.0,0.0,1.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,chain_of_thought,rag,S,0.6522,0.04349999999999998,23.0,15.0,8.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,chain_of_thought,rag,V,0.5238333333333334,0.3298979438149522,7.0,3.6666666666666665,3.3333333333333335,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,few_shot,non_rag,C,0.0,0.0,9.0,0.0,9.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,few_shot,non_rag,D,0.25,0.0,4.0,1.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,few_shot,non_rag,P,0.0,0.0,1.0,0.0,1.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,few_shot,non_rag,S,0.0,0.0,23.0,0.0,23.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,few_shot,non_rag,V,0.0,0.0,7.0,0.0,7.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,few_shot,rag,C,0.4444333333333333,0.19248857974782124,9.0,4.0,5.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,few_shot,rag,D,0.8333333333333334,0.14433756729740646,4.0,3.3333333333333335,0.6666666666666666,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,few_shot,rag,P,0.0,0.0,1.0,0.0,1.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,few_shot,rag,S,0.6666666666666666,0.13977590397966788,23.0,15.333333333333334,7.666666666666667,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,few_shot,rag,V,0.6190333333333333,0.29737399572479994,7.0,4.333333333333333,2.6666666666666665,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,zero_shot,non_rag,C,0.0,0.0,9.0,0.0,9.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,zero_shot,non_rag,D,0.25,0.0,4.0,1.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,zero_shot,non_rag,P,0.0,0.0,1.0,0.0,1.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,zero_shot,non_rag,S,0.0,0.0,23.0,0.0,23.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,zero_shot,non_rag,V,0.0,0.0,7.0,0.0,7.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,zero_shot,rag,C,0.7037333333333334,0.06414361490696746,9.0,6.333333333333333,2.6666666666666665,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,zero_shot,rag,D,1.0,0.0,4.0,4.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,zero_shot,rag,P,0.6666666666666666,0.5773502691896258,1.0,0.6666666666666666,0.3333333333333333,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,zero_shot,rag,S,0.8985333333333334,0.02505700168282977,23.0,20.666666666666668,2.3333333333333335,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Multiple Sclerosis,zero_shot,rag,V,0.9047666666666667,0.16494897190747607,7.0,6.333333333333333,0.6666666666666666,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Polymyalgia Rheumatica,chain_of_thought,non_rag,D,0.0,0.0,4.0,0.0,4.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Polymyalgia Rheumatica,chain_of_thought,non_rag,H,0.0,0.0,2.0,0.0,2.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Polymyalgia Rheumatica,chain_of_thought,non_rag,S,0.0,0.0,2.0,0.0,2.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Polymyalgia Rheumatica,chain_of_thought,rag,D,0.6666666666666666,0.14433756729740646,4.0,2.6666666666666665,1.3333333333333333,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Polymyalgia Rheumatica,chain_of_thought,rag,H,1.0,0.0,2.0,2.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Polymyalgia Rheumatica,chain_of_thought,rag,S,1.0,0.0,2.0,2.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Polymyalgia Rheumatica,few_shot,non_rag,D,0.0,0.0,4.0,0.0,4.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Polymyalgia Rheumatica,few_shot,non_rag,H,0.0,0.0,2.0,0.0,2.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Polymyalgia Rheumatica,few_shot,non_rag,S,0.0,0.0,2.0,0.0,2.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Polymyalgia Rheumatica,few_shot,rag,D,1.0,0.0,4.0,4.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Polymyalgia Rheumatica,few_shot,rag,H,1.0,0.0,2.0,2.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Polymyalgia Rheumatica,few_shot,rag,S,1.0,0.0,2.0,2.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Polymyalgia Rheumatica,zero_shot,non_rag,D,0.0,0.0,4.0,0.0,4.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Polymyalgia Rheumatica,zero_shot,non_rag,H,0.0,0.0,2.0,0.0,2.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Polymyalgia Rheumatica,zero_shot,non_rag,S,0.0,0.0,2.0,0.0,2.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Polymyalgia Rheumatica,zero_shot,rag,D,1.0,0.0,4.0,4.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Polymyalgia Rheumatica,zero_shot,rag,H,1.0,0.0,2.0,2.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Polymyalgia Rheumatica,zero_shot,rag,S,1.0,0.0,2.0,2.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,chain_of_thought,non_rag,C,0.04446666666666666,0.03850926295494804,15.0,0.6666666666666666,14.333333333333334,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,chain_of_thought,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,chain_of_thought,non_rag,S,0.25,0.25,4.0,1.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,chain_of_thought,non_rag,V,0.0,0.0,3.0,0.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,chain_of_thought,rag,C,0.3333333333333333,0.1333500031246094,15.0,5.0,10.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,chain_of_thought,rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,chain_of_thought,rag,S,0.25,0.0,4.0,1.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,chain_of_thought,rag,V,0.3333,0.0,3.0,1.0,2.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,few_shot,non_rag,C,0.0,0.0,15.0,0.0,15.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,few_shot,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,few_shot,non_rag,S,0.25,0.0,4.0,1.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,few_shot,non_rag,V,0.0,0.0,3.0,0.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,few_shot,rag,C,0.15553333333333333,0.038509262954948054,15.0,2.3333333333333335,12.666666666666666,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,few_shot,rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,few_shot,rag,S,0.5833333333333334,0.14433756729740646,4.0,2.3333333333333335,1.6666666666666667,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,few_shot,rag,V,0.3333333333333333,0.33335000124993747,3.0,1.0,2.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,zero_shot,non_rag,C,0.0,0.0,15.0,0.0,15.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,zero_shot,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,zero_shot,non_rag,S,0.4166666666666667,0.14433756729740643,4.0,1.6666666666666667,2.3333333333333335,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,zero_shot,non_rag,V,0.0,0.0,3.0,0.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,zero_shot,rag,C,0.24443333333333336,0.0769607908829771,15.0,3.6666666666666665,11.333333333333334,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,zero_shot,rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,zero_shot,rag,S,0.4166666666666667,0.14433756729740646,4.0,1.6666666666666667,2.3333333333333335,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus,zero_shot,rag,V,0.6667,0.0,3.0,2.0,1.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,A,0.0,0.0,17.0,0.0,17.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,C,0.0098,0.0,102.0,1.0,101.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,H,0.0,0.0,1.0,0.0,1.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,P,0.0,0.0,2.0,0.0,2.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,S,0.0769,0.0769,13.0,1.0,12.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),chain_of_thought,non_rag,V,0.0,0.0,3.0,0.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),chain_of_thought,rag,A,0.0,0.0,17.0,0.0,17.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),chain_of_thought,rag,C,0.08496666666666668,0.037159431283771464,102.0,8.666666666666666,93.33333333333333,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),chain_of_thought,rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),chain_of_thought,rag,H,0.3333333333333333,0.5773502691896258,1.0,0.3333333333333333,0.6666666666666666,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),chain_of_thought,rag,P,0.5,0.0,2.0,1.0,1.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),chain_of_thought,rag,S,0.2820666666666667,0.08879647140136442,13.0,3.6666666666666665,9.333333333333334,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),chain_of_thought,rag,V,0.4444333333333333,0.19248857974782121,3.0,1.3333333333333333,1.6666666666666667,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,A,0.0,0.0,17.0,0.0,17.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,C,0.0098,0.0,102.0,1.0,101.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,H,0.0,0.0,1.0,0.0,1.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,P,0.0,0.0,2.0,0.0,2.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,S,0.0769,0.0,13.0,1.0,12.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),few_shot,non_rag,V,0.0,0.0,3.0,0.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),few_shot,rag,A,0.0,0.0,17.0,0.0,17.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),few_shot,rag,C,0.07513333333333333,0.03441646892598561,102.0,7.666666666666667,94.33333333333333,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),few_shot,rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),few_shot,rag,H,0.3333333333333333,0.5773502691896258,1.0,0.3333333333333333,0.6666666666666666,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),few_shot,rag,P,0.3333333333333333,0.2886751345948129,2.0,0.6666666666666666,1.3333333333333333,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),few_shot,rag,S,0.5384333333333333,0.13325244212896564,13.0,7.0,6.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),few_shot,rag,V,0.4444666666666666,0.38491942446872346,3.0,1.3333333333333333,1.6666666666666667,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,A,0.0,0.0,17.0,0.0,17.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,C,0.0098,0.0098,102.0,1.0,101.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,H,0.0,0.0,1.0,0.0,1.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,P,0.0,0.0,2.0,0.0,2.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,S,0.15383333333333335,0.0769500054147713,13.0,2.0,11.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),zero_shot,non_rag,V,0.0,0.0,3.0,0.0,3.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),zero_shot,rag,A,0.0,0.0,17.0,0.0,17.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),zero_shot,rag,C,0.09149999999999998,0.03155962610678397,102.0,9.333333333333334,92.66666666666667,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),zero_shot,rag,D,1.0,0.0,1.0,1.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),zero_shot,rag,H,1.0,0.0,1.0,1.0,0.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),zero_shot,rag,P,0.16666666666666666,0.2886751345948129,2.0,0.3333333333333333,1.6666666666666667,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),zero_shot,rag,S,0.3077,0.0,13.0,4.0,9.0,3
+GPT-4o (v1 baseline model),openai,gpt-4o-2024-08-06,Type 2 Diabetes Mellitus (Audit),zero_shot,rag,V,0.7778,0.1924308447209023,3.0,2.3333333333333335,0.6666666666666666,3

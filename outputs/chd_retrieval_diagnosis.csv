@@ -1,0 +1,50 @@
+model_label,gold_category,n_retrieval_failure,n_generation_failure,pct_retrieval_failure
+GPT-4o (v1 baseline model),A,1395,0,100.0
+GPT-5.4-mini,A,1395,0,100.0
+GPT-5.5,A,1395,0,100.0
+Gemini 3.1 Pro,A,1395,0,100.0
+Gemini-3.1-Flash-Lite,A,1395,0,100.0
+MedGemma 1.0-27B,A,1395,0,100.0
+MedGemma 1.5-4B,A,1085,0,100.0
+GPT-4o (v1 baseline model),C,261,0,100.0
+GPT-5.4-mini,C,261,0,100.0
+GPT-5.5,C,261,0,100.0
+Gemini 3.1 Pro,C,261,0,100.0
+Gemini-3.1-Flash-Lite,C,261,0,100.0
+MedGemma 1.0-27B,C,261,0,100.0
+MedGemma 1.5-4B,C,203,0,100.0
+GPT-4o (v1 baseline model),D,243,95,71.9
+GPT-5.4-mini,D,242,28,89.6
+GPT-5.5,D,227,3,98.7
+Gemini 3.1 Pro,D,238,10,96.0
+Gemini-3.1-Flash-Lite,D,243,8,96.8
+MedGemma 1.0-27B,D,243,107,69.4
+MedGemma 1.5-4B,D,189,86,68.7
+GPT-4o (v1 baseline model),H,97,0,100.0
+GPT-5.4-mini,H,99,0,100.0
+GPT-5.5,H,92,0,100.0
+Gemini 3.1 Pro,H,98,0,100.0
+Gemini-3.1-Flash-Lite,H,99,0,100.0
+MedGemma 1.0-27B,H,99,0,100.0
+MedGemma 1.5-4B,H,77,0,100.0
+GPT-4o (v1 baseline model),P,27,0,100.0
+GPT-5.4-mini,P,27,0,100.0
+GPT-5.5,P,27,0,100.0
+Gemini 3.1 Pro,P,27,0,100.0
+Gemini-3.1-Flash-Lite,P,27,0,100.0
+MedGemma 1.0-27B,P,27,0,100.0
+MedGemma 1.5-4B,P,21,0,100.0
+GPT-4o (v1 baseline model),S,738,83,89.9
+GPT-5.4-mini,S,737,15,98.0
+GPT-5.5,S,693,0,100.0
+Gemini 3.1 Pro,S,736,14,98.1
+Gemini-3.1-Flash-Lite,S,738,21,97.2
+MedGemma 1.0-27B,S,738,71,91.2
+MedGemma 1.5-4B,S,574,65,89.8
+GPT-4o (v1 baseline model),V,18,0,100.0
+GPT-5.4-mini,V,18,0,100.0
+GPT-5.5,V,18,0,100.0
+Gemini 3.1 Pro,V,18,0,100.0
+Gemini-3.1-Flash-Lite,V,18,0,100.0
+MedGemma 1.0-27B,V,18,0,100.0
+MedGemma 1.5-4B,V,14,0,100.0

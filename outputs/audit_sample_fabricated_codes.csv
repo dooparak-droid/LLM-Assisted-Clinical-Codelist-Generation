@@ -1,0 +1,31 @@
+model_label,condition,code,term,code_str,found_in_full_rf2,rf2_active_status
+GPT-4o (v1 baseline model),Atrial Fibrillation,71478003,Electrophysiological test documenting atrial fibrillation,71478003,False,not_found
+MedGemma 1.0-27B,Type 2 Diabetes Mellitus (Audit),418353006,Diabetes mellitus with poor control,418353006,False,not_found
+MedGemma 1.0-27B,Asthma,226229008,Adrenal fatigue secondary to steroid therapy (finding),226229008,False,not_found
+MedGemma 1.5-4B,Type 2 Diabetes Mellitus,49667000,Heart failure,49667000,False,not_found
+Gemini-3.1-Flash-Lite,Hypothyroidism,414700005,Autoimmune hypothyroidism,414700005,False,not_found
+MedGemma 1.0-27B,Type 2 Diabetes Mellitus (Audit),537710003119106,Glaucoma suspect due to type II diabetes mellitus,537710003119106,False,not_found
+MedGemma 1.0-27B,Atrial Fibrillation,86367008,Pulmonary embolism secondary to atrial fibrillation,86367008,False,not_found
+GPT-5.5,Hypothyroidism,35155006,Myxedema coma,35155006,False,not_found
+GPT-5.4-mini,Hypothyroidism,409536004,Central hypothyroidism,409536004,False,not_found
+GPT-5.4-mini,Hypothyroidism,237531009,Hypothyroidism due to hypothalamic disorder (disorder),237531009,False,not_found
+Gemini 3.1 Pro,Coronary Heart Disease,128403006,Coronary artery stenosis,128403006,False,not_found
+MedGemma 1.5-4B,Asthma,61321008,Bronchospasm,61321008,False,not_found
+MedGemma 1.5-4B,Coronary Heart Disease,288630005,Coronary vasospasm,288630005,False,not_found
+Gemini-3.1-Flash-Lite,Coronary Heart Disease,84898007,Coronary artery fistula,84898007,False,not_found
+Gemini-3.1-Flash-Lite,Multiple Sclerosis,424653006,Progressive-relapsing multiple sclerosis,424653006,False,not_found
+MedGemma 1.0-27B,Coronary Heart Disease,128490000,Arteriosclerosis of coronary arteries,128490000,False,not_found
+MedGemma 1.5-4B,Coronary Heart Disease,196750007,"Arrhythmia, atrial flutter",196750007,False,not_found
+MedGemma 1.0-27B,Hypothyroidism,162114008,Hypothyroid dysfunction,162114008,False,not_found
+MedGemma 1.0-27B,Type 2 Diabetes Mellitus (Audit),444111008,Type I diabetes mellitus well controlled,444111008,False,not_found
+MedGemma 1.5-4B,Type 2 Diabetes Mellitus (Audit),43796002,Hyperglycemia,43796002,False,not_found
+MedGemma 1.0-27B,Type 2 Diabetes Mellitus,197510004,Diabetic maculopathy secondary to type II diabetes mellitus,197510004,False,not_found
+MedGemma 1.0-27B,Multiple Sclerosis,395704006,Urinary retention (disorder),395704006,False,not_found
+GPT-5.4-mini,Hypothyroidism,237718005,Hypothyroidism due to cirrhosis (disorder),237718005,False,not_found
+GPT-4o (v1 baseline model),Multiple Sclerosis,429439004,Multiple sclerosis treatment administration,429439004,False,not_found
+Gemini 3.1 Pro,Coronary Heart Disease,25091001,Coronary artery stenosis,25091001,False,not_found
+Gemini-3.1-Flash-Lite,Polymyalgia Rheumatica,416393006,Giant cell arteritis with polymyalgia rheumatica,416393006,False,not_found
+MedGemma 1.5-4B,Type 2 Diabetes Mellitus,176473004,"Diabetic peripheral neuropathy, lower limb",176473004,False,not_found
+GPT-4o (v1 baseline model),Coronary Heart Disease,40970008,Coronary subendocardial infarction,40970008,False,not_found
+MedGemma 1.0-27B,Hypothyroidism,685187005,Postpartum hypothyroidism,685187005,False,not_found
+MedGemma 1.5-4B,Polymyalgia Rheumatica,126941001,Polymyalgia rheumatica,126941001,False,not_found

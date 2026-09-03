@@ -1,0 +1,14 @@
+{
+  "eval_set_id": "42H5iqBSuSD7dp7ZWT6WcX",
+  "tasks": [
+    {
+      "name": "codelist_generation",
+      "task_id": "EHLZgEpH9MpvbF44TiT6fg",
+      "task_file": "inspect_pipeline.py",
+      "task_args": {},
+      "model": "mockllm/model",
+      "model_args": {},
+      "sequence": 0
+    }
+  ]
+}
